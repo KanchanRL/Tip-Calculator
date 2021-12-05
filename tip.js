@@ -28,7 +28,6 @@ submitBtn.addEventListener("click", () => {
     }
 
     let x = Number(bill.value);
-    alert(x.toFixed(2));
 
     let result = Number(((x.toFixed(2) * service.value)/100)/people.value).toFixed(2);
     
